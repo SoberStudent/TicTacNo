@@ -18,10 +18,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)butonOne:(UIButton *)sender {
 }
+- (IBAction)buttonTwo:(UIButton *)sender {
+}
+- (IBAction)buttonThree:(UIButton *)sender {
+}
+- (IBAction)buttonFour:(UIButton *)sender {
+}
+- (IBAction)buttonFive:(UIButton *)sender {
+}
+- (IBAction)buttonSix:(UIButton *)sender {
+}
+- (IBAction)buttonSeven:(UIButton *)sender {
+}
+- (IBAction)buttonEight:(UIButton *)sender {
+}
+- (IBAction)buttonNine:(UIButton *)sender {
+}
+
+
+
+
+
+
 
 @end
