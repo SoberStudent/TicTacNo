@@ -24,7 +24,6 @@
                                     <rect key="frame" x="27" y="232" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0V-R6-VrI"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4X-1n-SOj"/>
                                 </connections>
                             </button>
@@ -35,7 +34,6 @@
                                     <rect key="frame" x="175" y="232" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJy-v5-nkO"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFq-nl-EBx"/>
                                 </connections>
                             </button>
@@ -46,7 +44,6 @@
                                     <rect key="frame" x="27" y="79" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="butonOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Peb-Rc-5uT"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nnn-5C-8rN"/>
                                 </connections>
                             </button>
@@ -57,7 +54,6 @@
                                     <rect key="frame" x="173" y="79" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4V4-oP-SGc"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5b-mt-FEM"/>
                                 </connections>
                             </button>
@@ -68,7 +64,6 @@
                                     <rect key="frame" x="326" y="79" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LCU-Hr-lE2"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlA-WT-ULC"/>
                                 </connections>
                             </button>
@@ -79,7 +74,6 @@
                                     <rect key="frame" x="27" y="377" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3g0-py-sZg"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9l-wi-yd9"/>
                                 </connections>
                             </button>
@@ -90,7 +84,6 @@
                                     <rect key="frame" x="175" y="377" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgE-jC-gw8"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ff0-eV-vNQ"/>
                                 </connections>
                             </button>
@@ -101,7 +94,6 @@
                                     <rect key="frame" x="328" y="377" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86F-zn-Tpp"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ed1-Jk-8nS"/>
                                 </connections>
                             </button>
@@ -112,17 +104,16 @@
                                     <rect key="frame" x="328" y="232" width="46" height="28"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCr-9C-jdA"/>
                                     <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upa-bT-U2Z"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e92-ny-6FW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e92-ny-6FW">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="28" width="47" height="21"/>
+                                    <rect key="frame" x="20" y="28" width="78" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -139,6 +130,15 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="buttonEight" destination="S88-4i-D1y" id="JJ9-m8-A0U"/>
+                        <outlet property="buttonFive" destination="cTs-yS-baL" id="peh-1V-dux"/>
+                        <outlet property="buttonFour" destination="r5C-pB-K9n" id="Xgu-Mm-Zxr"/>
+                        <outlet property="buttonNine" destination="8Q3-nJ-23D" id="KL0-eA-RFJ"/>
+                        <outlet property="buttonOne" destination="p57-uP-rTv" id="Q33-SX-Yoc"/>
+                        <outlet property="buttonSeven" destination="1nb-DK-qfX" id="2Ep-FU-QIN"/>
+                        <outlet property="buttonSix" destination="fLT-BV-ERa" id="wAl-zJ-dI3"/>
+                        <outlet property="buttonThree" destination="f8w-Xx-Jjh" id="x1T-WB-Pz1"/>
+                        <outlet property="buttonTwo" destination="y7z-jN-Kqf" id="Hc5-mF-HIF"/>
                         <outlet property="whichPlayerLabel" destination="e92-ny-6FW" id="q78-hm-mgn"/>
                     </connections>
                 </viewController>

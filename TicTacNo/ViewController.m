@@ -10,6 +10,17 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *whichPlayerLabel;
+@property (weak, nonatomic) IBOutlet UIButton *buttonOne;
+@property (weak, nonatomic) IBOutlet UIButton *buttonTwo;
+@property (weak, nonatomic) IBOutlet UIButton *buttonThree;
+@property (weak, nonatomic) IBOutlet UIButton *buttonFour;
+@property (weak, nonatomic) IBOutlet UIButton *buttonFive;
+@property (weak, nonatomic) IBOutlet UIButton *buttonSix;
+@property (weak, nonatomic) IBOutlet UIButton *buttonSeven;
+@property (weak, nonatomic) IBOutlet UIButton *buttonEight;
+@property (weak, nonatomic) IBOutlet UIButton *buttonNine;
+
+
 
 @end
 
@@ -17,28 +28,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.whichPlayerLabel.text = [NSString stringWithFormat:@"Player 1"];
 }
-- (IBAction)butonOne:(UIButton *)sender {
-}
-- (IBAction)buttonTwo:(UIButton *)sender {
-}
-- (IBAction)buttonThree:(UIButton *)sender {
-}
-- (IBAction)buttonFour:(UIButton *)sender {
-}
-- (IBAction)buttonFive:(UIButton *)sender {
-}
-- (IBAction)buttonSix:(UIButton *)sender {
-}
-- (IBAction)buttonSeven:(UIButton *)sender {
-}
-- (IBAction)buttonEight:(UIButton *)sender {
-}
-- (IBAction)buttonNine:(UIButton *)sender {
-}
+                                  
+
 
 - (IBAction)onButtonTapped:(UIButton *)button {
+    // I want to create a string instance firstButton that turns IBOutlet buttonOne's text
+    NSString *firstButton = [NSString self.buttonOne.text;
+    
+    // NSLog(@"Jiggly Puff");
+    
     
 }
 
