@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *whichPlayerLabel;
 
 @end
 
@@ -37,7 +38,9 @@
 - (IBAction)buttonNine:(UIButton *)sender {
 }
 
-
+- (IBAction)onButtonTapped:(UIButton *)button {
+    
+}
 
 
 
